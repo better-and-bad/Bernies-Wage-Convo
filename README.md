@@ -14,6 +14,6 @@ A demonstration of how traditional inflation measures overstate inflation and un
 All code and data required to reproduce the analysis and follow along.
 
 ## Steps To Reproduce My Work
-1) (Download R){https://posit.co/download/rstudio-desktop/}
-2) Get your FRED key (here){https://fred.stlouisfed.org/docs/api/api_key.html}.
+1) {Download R}(https://posit.co/download/rstudio-desktop/)
+2) Get your FRED key {here}(https://fred.stlouisfed.org/docs/api/api_key.html).
 3) Copy and paste my inf_myth.R file into an R file
