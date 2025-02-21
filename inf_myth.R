@@ -1,7 +1,3 @@
-
-
-rm(list=ls())
-
 ### load libraries
 library(fredr)
 library(dplyr)
@@ -21,7 +17,7 @@ theme_set(
 )
 
 ### set fred key
-fredr_set_key("8454091b420f6979c70e84de8e611118")
+fredr_set_key("YOUR FRED KEY")
 
 #######################################
 ############ read in data ############
@@ -615,12 +611,6 @@ racial_income %>%
   ) %>% 
     select(date, wh_chained_incr, wh_cpi_incr, bl_chained_incr, bl_cpi_incr)
 
-### median household income
-median_household_income <- freedr("MEHOINUSA646N") %>% 
-  rename(black_income = value) %>% 
-  select(-realtime_start, -realtime_end)
-
-### poverty rate
 
 
   ######## 
